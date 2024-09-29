@@ -83,7 +83,7 @@ def detectar_caras_y_ojos_en_imagen(imagen_subida):
 
 #=================================Aplicación Streamlit========================================
 # Interfaz de usuario de Streamlit
-st.title("Detección de Caras y Ojos")
+st.title("Detección de Caras y Ojos Esta que falla la cam por los permisos y estoy en eso ")
 st.subheader("Abre la cámara y detecta caras y ojos o sube una imagen y detecta caras y ojos")
 
 # Botón para iniciar la detección de caras y ojos en la transmisión de la cámara en vivo
