@@ -19,7 +19,7 @@ def detectar_caras_y_ojos_en_imagen(imagen_subida):
     faces = faceCascade.detectMultiScale(
         gray,
         scaleFactor=1.3,  # Parámetro que especifica cuánto se reduce el tamaño de la imagen en cada escala de imagen
-        minNeighbors=5,  # Parámetro que especifica cuántos vecinos debe tener cada rectángulo candidato para retenerlo
+        minNeighbors=10,  # Parámetro que especifica cuántos vecinos debe tener cada rectángulo candidato para retenerlo
         minSize=(30, 30)  # Tamaño mínimo posible del objeto. Los objetos más pequeños que esto serán ignorados
     )
 
